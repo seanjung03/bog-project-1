@@ -129,6 +129,9 @@ table {
 }
 
 /* End of Meyer Reset*/
+:root {
+  font-size: min(1vh, 1vw);
+}
 
 .main {
   display: flex;
@@ -138,14 +141,23 @@ table {
 .top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: black;
+  padding: min(2vh, 2vw);
 }
 
 h1 {
   color: white;
+  font-size: 8rem;
 }
 
 a {
   color: white;
   text-decoration: none;
+  font-size: 3rem;
+}
+
+.links {
+  display: flex;
+  gap: 1vw;
 }
