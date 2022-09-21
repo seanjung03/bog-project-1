@@ -173,6 +173,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 8vh;
+  padding: min(10vh, 10vw);
 }
 
 .bottom img {
@@ -183,4 +184,9 @@ a {
 p {
   font-size: 3rem;
   color: black;
+}
+
+h3 {
+  font-size: 5rem;
+  color: white;
 }
