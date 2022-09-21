@@ -181,6 +181,11 @@ a {
   aspect-ratio: 1 / 1;
 }
 
+.selfie img {
+  width: min(30vw, 30vh);
+  height: auto;
+}
+
 p {
   font-size: 3rem;
   color: black;
